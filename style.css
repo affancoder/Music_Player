@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+body {
+  background-color: rgb(23, 23, 23);
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+nav {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  height: 70px;
+  background: black;
+  color: white;
+}
+.brand img {
+  height: 50px;
+  padding: 0 8px;
+}
+.brand {
+  display: flex;
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+nav ul li {
+  padding: 0 12px;
+}
+.bottom {
+  position: sticky;
+  height: 130px;
+  bottom: 0;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.icons {
+  margin-top: 12px;
+}
+.icons i {
+  cursor: pointer;
+  color: white;
+}
+.container {
+  min-height: 70vh;
+  background: black;
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: flex;
+  margin: 23px auto;
+  width: 70%;
+  border: 12px;
+  padding: 34px;
+  background-image: url("assests/bg.jpg");
+}
+
+#myProgressBar {
+  width: 80vw;
+  text-align: center;
+  cursor: pointer;
+}
+.songItem {
+  height: 50px;
+  display: flex;
+  background: white;
+  width: 82%;
+  color: black;
+  margin: 12px 0;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 34px;
+}
+.songItem:hover {
+  transition: translateX(1.11);
+}
+.songItem img {
+  width: 43px;
+  margin: 0 23px;
+  border-radius: 34px;
+}
+.timestamp {
+  margin: 0 23px;
+}
+.timestamp i {
+  cursor: pointer;
+}
+.songInfo {
+  position: absolute;
+  left: 10vw;
+  font-family: "Varela Round", Arial, Helvetica, sans-serif;
+}
+.songInfo img {
+  opacity: 0;
+  transition: opacity 0.4s ease-in;
+}
+
+@media (max-width: 1100px) {
+  body {
+    /* background-color: lightslategray; */
+  }
+  .songItem {
+    width: 100%;
+  }
+  .bottom {
+    height: 150px;
+  }
+  .icons {
+    margin-top: 50px;
+  }
+}
