@@ -103,17 +103,22 @@ nav ul li {
   transition: opacity 0.4s ease-in;
 }
 
-@media (max-width: 1100px) {
-  body {
-    /* background-color: lightslategray; */
-  }
+@media (max-width: 600px) {
   .songItem {
-    width: 100%;
+    width: 109%;
+    justify-content: space-around;
+    margin-left: -10px;
+  }
+  .container {
+    width: 75%;
   }
   .bottom {
     height: 150px;
   }
   .icons {
     margin-top: 50px;
+  }
+  .timestamp {
+    margin-right: 8px;
   }
 }
