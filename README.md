@@ -2,7 +2,7 @@
 
 https://github.com/affancoder/Music_Player/assets/113276865/b2a33605-afd9-4d66-a9fd-2690a68837df
 
-The Spotify Clone project is a web application developed using HTML, CSS, and JavaScript that emulates the core functionalities of the popular music streaming service, Spotify. It provides users with an immersive music listening experience and a user-friendly interface. The project aims to showcase web development skills and serve as a learning resource for web developers interested in building interactive web applications.
+The Music Player Project is a web application developed using HTML, CSS & JavaScript that emulates the core functionalities of the popular music streaming service, Spotify. It provides users with an immersive music listening experience and a user-friendly interface. The project aims to showcase web development skills and serve as a learning resource for web developers interested in building interactive web applications.
 
 Key Features:
 
