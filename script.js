@@ -35,9 +35,29 @@ let songs = [
     coverPath: "cover/5.jpg",
   },
   {
-    songName: "Shape of you",
-    filePath: "assests/ed.mp3",
+    songName: " Billian billian",
+    filePath: "assests/6.mp3",
     coverPath: "cover/6.jpg",
+  },
+  {
+    songName: " Made in India",
+    filePath: "assests/7.mp3",
+    coverPath: "cover/7.jpeg",
+  },
+  {
+    songName: " Kya Baat Hai",
+    filePath: "assests/8.mp3",
+    coverPath: "cover/8.jpg",
+  },
+  {
+    songName: " Hookah Hookah",
+    filePath: "assests/9.mp3",
+    coverPath: "cover/9.jpg",
+  },
+  {
+    songName: " Ishare Tere",
+    filePath: "assests/10.mp3",
+    coverPath: "cover/10.jpg",
   },
 ];
 
