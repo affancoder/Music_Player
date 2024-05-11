@@ -59,6 +59,31 @@ let songs = [
     filePath: "assests/10.mp3",
     coverPath: "cover/10.jpg",
   },
+  {
+    songName: " Sanam re",
+    filePath: "assests/11.mp3",
+    coverPath: "cover/11.jpeg",
+  },
+  {
+    songName: " Tera Hua",
+    filePath: "assests/12.mp3",
+    coverPath: "cover/12.jpg",
+  },
+  {
+    songName: " Dill Diya Gallan",
+    filePath: "assests/13.mp3",
+    coverPath: "cover/13.jpg",
+  },
+  {
+    songName: " Rafta Rafta",
+    filePath: "assests/14.mp3",
+    coverPath: "cover/14.jpg",
+  },
+  {
+    songName: " Baarish",
+    filePath: "assests/15.mp3",
+    coverPath: "cover/15.jpg",
+  },
 ];
 
 songItems.forEach((element, i) => {
