@@ -1,16 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap");
+
 body {
   background-color: rgb(23, 23, 23);
 }
+
 * {
   margin: 0;
   padding: 0;
 }
+
 nav {
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+
 nav ul {
   display: flex;
   align-items: center;
@@ -20,19 +24,23 @@ nav ul {
   color: white;
   cursor: pointer;
 }
+
 .brand img {
   height: 50px;
   padding: 0 8px;
 }
+
 .brand {
   display: flex;
   align-items: center;
   font-weight: bolder;
   font-size: 1.5rem;
 }
+
 nav ul li {
   padding: 0 12px;
 }
+
 .bottom {
   position: sticky;
   height: 130px;
@@ -44,13 +52,16 @@ nav ul li {
   align-items: center;
   flex-direction: column;
 }
+
 .icons {
   margin-top: 12px;
 }
+
 .icons i {
   cursor: pointer;
   color: white;
 }
+
 .container {
   min-height: 70vh;
   background: black;
@@ -63,11 +74,12 @@ nav ul li {
   padding: 34px;
   border-radius: 24px;
   /* background-image: url("assests/bg.jpg"); */
-  background-image: url('https://64.media.tumblr.com/tumblr_m9bgaq8tzm1rc7pm9o1_400.gif');
+  background-color: #08AEEA;
+  background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
   background-size: cover;
 }
 
-img:hover{
+img:hover {
   cursor: pointer;
 }
 
@@ -76,6 +88,7 @@ img:hover{
   text-align: center;
   cursor: pointer;
 }
+
 .songItem {
   height: 50px;
   display: flex;
@@ -87,28 +100,40 @@ img:hover{
   align-items: center;
   border-radius: 34px;
 }
+
 .songItem:hover {
   transition: translateX(1.11);
 }
+
 .songItem img {
   width: 43px;
   margin: 0 23px;
   border-radius: 34px;
 }
+
 .timestamp {
   margin: 0 23px;
 }
+
 .timestamp i {
   cursor: pointer;
 }
+
 .songInfo {
   position: absolute;
   left: 10vw;
   font-family: "Varela Round", Arial, Helvetica, sans-serif;
 }
+
 .songInfo img {
   opacity: 0;
   transition: opacity 0.4s ease-in;
+}
+
+.contianer3 .container {
+  background-color: #0093E9;
+  background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
 }
 
 @media (max-width: 600px) {
@@ -117,15 +142,19 @@ img:hover{
     justify-content: space-around;
     margin-left: -10px;
   }
+
   .container {
     width: 75%;
   }
+
   .bottom {
     height: 150px;
   }
+
   .icons {
     margin-top: 50px;
   }
+
   .timestamp {
     margin-right: 8px;
   }
