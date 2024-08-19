@@ -41,6 +41,11 @@ nav ul li {
   padding: 0 12px;
 }
 
+nav ul a {
+  color: white;
+  text-decoration: none;
+}
+
 .bottom {
   position: sticky;
   height: 130px;
