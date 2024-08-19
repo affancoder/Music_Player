@@ -86,6 +86,11 @@ nav ul a {
   background-size: cover;
 }
 
+nav img{
+  width: 50px;
+  border-radius: 50%;
+}
+
 img:hover {
   cursor: pointer;
 }
