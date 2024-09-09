@@ -12,13 +12,38 @@
 
 <body>
   <!-- Navbar Start -->
-  <nav>
-    <ul>
-      <a href="/"><li class="brand"><img src="assests/logo1.jpg" alt="spotify" />Music Play</li></a>
-      <li>Home</li>
-      <li>About</li>
-    </ul>  
+
+  <nav class="navbar">
+
+    <div class="nav-container">
+      <!-- Logo -->
+      <a href="/">
+        <li class="brand"><img src="assests/logo1.jpg" alt="spotify" />Music Play</li>
+      </a>
+
+      <!-- Search Bar -->
+      <div class="search-container">
+        <input type="text" placeholder="Search for songs..." id="search-input">
+      </div>
+
+      <!-- Menu -->
+      <div class="menu">
+        <button class="icon-button">👤</button>
+        <button class="icon-button">📡</button>
+        <button class="icon-button">⚙️</button>
+        <button class="icon-button" id="menu-btn">☰</button>
+      </div>
+
+      <!-- Mobile Menu -->
+      <div class="mobile-menu" id="mobile-menu">
+        <a href="#">Profile</a>
+        <a href="#">Discover</a>
+        <a href="#">Settings</a>
+      </div>
+    </div>
+
   </nav>
+
   <!-- Navbar End -->
   <div>
     <div class="container">
@@ -183,4 +208,5 @@
     <script src="https://kit.fontawesome.com/033520b209.js" crossorigin="anonymous"></script>
     <script src="script.js"></script>
 </body>
+
 </html>

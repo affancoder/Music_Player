@@ -204,3 +204,18 @@ window.addEventListener("load", () => {
     delay: 1,
   });
 });
+
+// Toggle Mobile Menu
+document.addEventListener("DOMContentLoaded", function () {
+  const menuButton = document.getElementById("menu-btn");
+  const mobileMenu = document.getElementById("mobile-menu");
+
+  menuButton.addEventListener("click", function () {
+    mobileMenu.classList.toggle("active");
+    if (mobileMenu.classList.contains("active")) {
+      mobileMenu.style.display = "flex";
+    } else {
+      mobileMenu.style.display = "none";
+    }
+  });
+});
